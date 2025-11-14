@@ -4,7 +4,7 @@ using System.Collections.Generic;
 /// <summary>
 /// 汎用オブジェクトプール
 /// </summary>
-public class ObjectPool<T> where T : Component
+public class ObjectPool<T> where T : Component //(whereはクラスの条件を指定)
 {
 
     //新規プレハブ
