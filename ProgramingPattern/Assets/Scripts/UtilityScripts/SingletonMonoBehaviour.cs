@@ -13,7 +13,7 @@ public abstract class SingletonMonoBehaviour<T> : MonoBehaviour where T : MonoBe
     //シングルトンにアクセスするためのpublic変数
     public static T Instance 
     {
-        //中身がnullかどうかの確認　(getはプロパティを読み取るときに呼び出される関数)
+        //中身がnullかどうかの確認　(getはプロパティを読み取るときに呼び出される関数((ゲッター))
         get
         {
             //instanceがなかったら処理
